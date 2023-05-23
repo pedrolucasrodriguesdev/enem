@@ -1,0 +1,83 @@
+Algoritmo "semnome"
+//  
+//  
+///
+//
+///
+///
+///
+ //
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 3/5/,
+Var
+// Seção de Declarações das variáveis 
+carro1,carro2,carro3,carro4,carro5,carro6:caractere
+compra:inteiro
+nome,profissao:caractere
+renda:inteiro
+valorsolicitado,opcao:inteiro
+quantparcelas:inteiro
+situacao:real
+apv:real
+valor:inteiro
+prest1,prest2,prest3:inteirO
+banco:real
+ aluguel:inteiro
+ CONSULTA:REAL
+inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreval("SEJA BEM VINDO AO AGILIS FINANCIAMENTO,COMPRA,e VENDA")
+escreval("DIGITE 1 PARA CONSULTAR NOSSOS VEICULOS")
+escreval("DIGITE 2 PRA FAZER SIMULAÇAO")
+escreval("DIGITE 3 PARA SAIR DE NOSSO SISTEMA")
+leia(consulta)
+se consulta = 1 entao
+escreval(" honda pop 110i - R$9.010,00'")
+escreval(" CG 160 2023CG 160 2023- R$ 14.760")
+escreval(" Honda biz 110i - R$ 11.769,00")
+escreval("ecosport-R$ 59.650,70")
+escreval("ka- R$ 45.960,25")
+escreval("fiesta 2015- R$ 26.000,00 ")
+LEIA(COMPRA)
+ESCREVAL("QUAL VEICULO DESEJA?")
+
+escreval("informe o nome do solicitante")
+leia(nome)
+escreval("profissão")
+leia(profissAo)
+escreval("renda")
+leia(renda)
+apv<-(renda/3)
+escreval("digite 1 -se sua casa for alugada,e 2 caso seja comprada")
+leia(aluguel)
+escreval("informe o valor solicitado pelo cliente")
+leia(Valorsolicitado)
+escreval("digite 1 - pagamento em 36x")
+escreval("digite 2 - pagamento em 48x")
+escreval("digite 3 - pagamento em 60x")
+prest1<-36
+prest2<-48
+prest3<-60
+leia(opcao)
+se(opcao = 1)então
+situacao<-(valorsolicitado/prest1)
+escreval("valor da prestação atual",situacao)
+se(situacao>apv)entao
+escreval("Credito negado",situacao)
+senao
+se(situacao<apv)entao
+escreval("credito aprovado")
+FIMSE
+FIMSE
+FIMSE
+
+Fimalgoritmo
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+
+Fimse
+Fimalgoritmo
