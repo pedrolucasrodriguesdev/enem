@@ -7,11 +7,11 @@ Algoritmo "semnome"
 ///
 ///
  //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 3/5/,
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 carro1,carro2,carro3,carro4,carro5,carro6:caractere
 compra:inteiro
 nome,profissao:caractere
@@ -26,11 +26,11 @@ banco:real
  aluguel:inteiro
  CONSULTA:REAL
 inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 escreval("SEJA BEM VINDO AO AGILIS FINANCIAMENTO,COMPRA,e VENDA")
 escreval("DIGITE 1 PARA CONSULTAR NOSSOS VEICULOS")
-escreval("DIGITE 2 PRA FAZER SIMULAÇAO")
+escreval("DIGITE 2 PRA FAZER SIMULAÃ‡AO")
 escreval("DIGITE 3 PARA SAIR DE NOSSO SISTEMA")
 leia(consulta)
 se consulta = 1 entao
@@ -45,13 +45,11 @@ ESCREVAL("QUAL VEICULO DESEJA?")
 
 escreval("informe o nome do solicitante")
 leia(nome)
-escreval("profissão")
+escreval("profissÃ£o")
 leia(profissAo)
 escreval("renda")
 leia(renda)
 apv<-(renda/3)
-escreval("digite 1 -se sua casa for alugada,e 2 caso seja comprada")
-leia(aluguel)
 escreval("informe o valor solicitado pelo cliente")
 leia(Valorsolicitado)
 escreval("digite 1 - pagamento em 36x")
@@ -61,9 +59,9 @@ prest1<-36
 prest2<-48
 prest3<-60
 leia(opcao)
-se(opcao = 1)então
+se(opcao = 1)entÃ£o
 situacao<-(valorsolicitado/prest1)
-escreval("valor da prestação atual",situacao)
+escreval("valor da prestaÃ§Ã£o atual",situacao)
 se(situacao>apv)entao
 escreval("Credito negado",situacao)
 senao
@@ -76,7 +74,7 @@ FIMSE
 Fimalgoritmo
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 
 Fimse
